@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Snyk Limited <opensource@snyk.io>
+#
+# SPDX-License-Identifier: Apache-2.0
+
 scripts/bin/*
 cache/org/*
 cache/logs/*

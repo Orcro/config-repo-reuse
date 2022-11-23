@@ -1,3 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2022 Snyk Limited <opensource@snyk.io> -->
+<!-- SPDX-FileCopyrightText: 2022 Orcro Limited <team@orcro.co.uk> -->
+<!-- -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
+
 # Example Snyk Config Repo
 
 This is a repository preconfigured to run the github actions workflows that drive a [Snyk Sync](https://github.com/snyk-playground/snyk-sync) import / synchronization of all the repositories in a given GitHub Organization (cloud or enterprise) into one or more Snyk Organizations.
@@ -171,3 +177,13 @@ git push -u origin main
 4. Reload the page and a new workflow should appear as running, select the workflow and view the logs, if it completes successfully, you should see that the repository how has a pull request.
 5. Merge the pull request labeled Updated Repo List
 6. Run a workflow again, this time selecting the "perform-import" workflow. This import may take some time if you did not perform a full sync locally first.
+
+## Licensing
+
+Code in this repository is released under the Apache-2.0 licence, the documentation is released under the CC-BY-4.0 licence. Most files will have a comment header specifying the licence, for example:
+
+```sh
+# SPDX-License-Identifer: Apache-2.0
+```
+
+however there are some minor files (such as data files) which do not support comments. Copyright information for these files is provided in [.reuse/dep5](.reuse/dep5).

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2022 Snyk Limited <opensource@snyk.io>
+# 
+# SPDX-License-Identifier: Apache-2.0
+
 GROUP_NAME=$1
 
 export SNYK_LOG_PATH="cache/logs"

@@ -1,0 +1,29 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: config-repo
+Upstream-Contact: Snyk Limited opensource@snyk.io
+Source: https://github.com/snyk-playground/config-repo
+Comment: Licensing information provided by Orcro Limited on behalf of Snyk Limited. The code in this repository is released under the Apache-2.0 licence, the documentation is released under the CC-BY-4.0 licence. This file is optional under the REUSE specification (here: https://reuse.software) but it is handy to provide licensing information for data files (see below).
+
+Files: import-targets.json
+Copyright: 2022 Snyk Limited 
+License: Apache-2.0
+
+Files: snyk-orgs.yaml
+Copyright: 2022 Snyk Limited 
+License: Apache-2.0
+
+Files: snyk-sync.yaml
+Copyright: 2022 Snyk Limited 
+License: Apache-2.0
+
+Files: .github/*
+Copyright: 2022 Snyk Limited
+License: Apache-2.0
+
+Files: cache/*
+Copyright: 2022 Snyk Limited
+License: Apache-2.0
+
+Files: targets/*
+Copyright: 2022 Snyk Limited
+License: Apache-2.0

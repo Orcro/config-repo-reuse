@@ -1,3 +1,7 @@
+<!-- SPDX-FileCopyrightText: 2022 Snyk Limited <opensource@snyk.io> -->
+<!-- -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+
 ### tl,dr; Api Import
 
 API import takes a json file 
